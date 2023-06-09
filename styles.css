@@ -195,3 +195,158 @@ section {
     color: var(--black);
     margin-bottom: .5rem;
 }
+
+.about .row {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+}
+
+.about .row .image {
+    flex: 1 1 40rem;
+}
+
+.about .row .image img {
+    width: 100%;
+}
+
+.about .row .content {
+    text-align: center;
+    flex: 1 1 40rem;
+}
+
+.about .row .content h3 {
+    font-size: 3rem;
+    color: var(--black);
+}
+
+.about .row .content p {
+    padding: 1rem 0;
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-black);
+}
+
+.courses .slide {
+    background-color: var(--light-bg);
+    border-radius: .5rem;
+    text-align: center;
+    padding: 2rem;
+    margin-bottom: 4rem;
+    user-select: none;
+}
+
+.courses .slide img {
+    height: 25rem;
+    width: 100%;
+}
+
+.courses .slide h3 {
+    margin: 1.5rem 0;
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.courses .slide p {
+    line-height: 2;
+    font-size: 1.6rem;
+    color: var(--light-black);
+}
+
+.swiper-pagination-bullet {
+    background-color: var(--black);
+}
+
+.swiper-pagination-bullet-active {
+    background-color: var(--crimson);
+}
+
+.teachers .slide {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 4rem;
+    user-select: none;
+}
+
+.teachers .slide img {
+    height: 55rem;
+    width: 100%;
+    object-fit: cover;
+    border-radius: .5rem;
+}
+
+.teachers .slide h3 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+    text-align: center;
+    color: var(--black);
+}
+
+.teachers .slide .social {
+    position: absolute;
+    top: 1rem;
+    left: -10rem;
+}
+
+.teachers .slide:hover .social {
+    left: 2rem;
+}
+
+.teachers .slide .social a {
+    display: block;
+    margin-top: 1rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: .5rem;
+    background-color: var(--black);
+    color: var(--white);
+    text-align: center;
+    font-size: 2rem;
+}
+
+.teachers .slide .social a:hover {
+    background-color: var(--crimson);
+    color: var(--black);
+}
+
+.reviews-slider .slide {
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    padding: 2rem;
+    margin-bottom: 4rem;
+    user-select: none;
+}
+
+.teachers .slide .social a:hover {
+    background-color: var(–crimson);
+    color: var(–black);
+}
+
+.reviews-slider .slide {
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    padding: 2rem;
+    margin-bottom: 4rem;
+    user-select: none;
+}
+
+.reviews-slider .slide .user h3 {
+    font-size: 2rem;
+    color: var(--black);
+    margin-bottom: .7rem;
+}
+
+.reviews-slider .slide .user .stars i {
+    font-size: 1.5rem;
+    color: var(--crimson);
+}
+
+.reviews_card {
+    cursor: pointer;
+}
+
+.reviews_card:hover {
+    box-shadow: 0px 0px 10px 0px red;
+}
