@@ -320,8 +320,8 @@ section {
 }
 
 .teachers .slide .social a:hover {
-    background-color: var(–crimson);
-    color: var(–black);
+    background-color: var(--crimson);
+    color: var(--black);
 }
 
 .reviews-slider .slide {
