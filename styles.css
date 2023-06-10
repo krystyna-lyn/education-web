@@ -350,3 +350,34 @@ section {
 .reviews_card:hover {
     box-shadow: 0px 0px 10px 0px red;
 }
+
+.contact .row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.contact .row .image {
+    flex: 1 1 40rem;
+}
+
+.contact .row .image img {
+    width: 100%;
+}
+
+.contact .row form {
+    flex: 1 1 40rem;
+}
+
+.contact .row form .card {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    border-radius: .5rem;
+    background-color: var(--light-bg);
+    font-size: 1.8rem;
+    color: var(--black);
+    padding: 1.4rem;
+    text-transform: none;
+}
