@@ -380,3 +380,87 @@ section {
     padding: 1.4rem;
     text-transform: none;
 }
+
+.contact .row form span {
+    font-size: 1.6rem;
+    color: var(--light-black);
+}
+
+.contact .row form .radio {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contact .row form .radio label {
+    font-size: 1.6rem;
+    color: var(--light-black);
+    margin-left: .5rem;
+    cursor: pointer;
+}
+
+.contact .row form .radio #female {
+    margin-left: 2rem;
+}
+
+.contact .row form .radio input {
+    appearance: none;
+    height: 2rem;
+    width: 2rem;
+    background-color: var(--light-black);
+    cursor: pointer;
+}
+
+.contact .row form .radio input:checked {
+    background-color: var(--crimson);
+    border-radius: 5rem;
+}
+
+.contact .row form .radio #male:checked~label[for=”male”] {
+    color: var(--crimson);
+}
+
+.contact .row form .radio #female:checked~label[for=”female”] {
+    color: var(--crimson);
+}
+
+.footer {
+    background-color: var(--light-bg);
+    text-align: center;
+}
+
+.footer .social a {
+    margin: 0 .3rem;
+    height: 4.5rem;
+    width: 4.5rem;
+    line-height: 4.5rem;
+    border-radius: 50%;
+    font-size: 2rem;
+    color: var(--black);
+    background-color: var(--white);
+    ;
+    transition: all linear 0.5s;
+}
+
+.footer .social .fa-instagram:hover {
+    background: -webkit-linear-gradient(#405DE6, #5851DB,
+            #833AB4, #C13584, #E1306C, #FD1D1D, #F56040,
+            #F77737, #FCAF45, #FFDC80);
+    -webkit-text-fill-color: transparent;
+    transform: translate(0px, -3px);
+    box-shadow: 0px 0px 5px 0px grey;
+}
+
+.footer .social .fa-youtube:hover {
+    color: red;
+    transform: translate(0px, -3px);
+    box-shadow: 0px 0px 5px 0px grey;
+}
+
+.footer .copyright {
+    margin-top: 2.5rem;
+    padding: 1.5rem;
+    padding-top: 2.5rem;
+    border-top: .2rem solid var(--crimson);
+    font-size: 2rem;
+    color: var(--light-black);
+}
