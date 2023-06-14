@@ -399,13 +399,14 @@ section {
 
 .contact .row form .radio {
     margin-top: 2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
 
 .contact .row form .radio label {
     font-size: 1.6rem;
     color: var(--light-black);
     margin-left: .5rem;
+    margin-right: 2rem;
     cursor: pointer;
 }
 
@@ -437,6 +438,7 @@ section {
 .footer {
     background-color: var(--light-bg);
     text-align: center;
+    margin-top: 10rem;
 }
 
 .footer .social a {
