@@ -1,7 +1,7 @@
 @import url(‘https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap’);
 
 :root {
-    --crimson: crimson;
+    --crimson: rgb(69, 123, 239);
     --black: #4b4b4b;
     --light-black: rgb(70, 70, 70);
     --white: white;
@@ -129,6 +129,7 @@ section {
 
 .home {
     margin-top: 6rem;
+    max-width: 100%;
 }
 
 .home .row {
@@ -358,7 +359,7 @@ section {
 }
 
 .reviews_card:hover {
-    box-shadow: 0px 0px 10px 0px red;
+    box-shadow: 0px 0px 10px 0px var(--crimson);
 }
 
 .contact .row {
